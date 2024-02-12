@@ -27,6 +27,6 @@ public class Main {
         for (int i = xString.length() - 1; i >= 0; i--) {
             xReverse.append(xString.charAt(i));
         }
-        return xString.equals(xReverse.toString());
+        return xString.contentEquals(xReverse);
     }
 }
